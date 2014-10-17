@@ -469,7 +469,7 @@
 			input[type="reset"]:hover,
 			.button:hover
 			{
-				background-color: #9ececc;
+				background-color: gray;/*#9ececc;*/
 			}
 			
 			input[type="button"]:active,
