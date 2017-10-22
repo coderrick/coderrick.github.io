@@ -1,39 +1,121 @@
-.demo-ribbon {
-  width: 100 %;
-  height: 40 vh;
-  background - color: #3F51B5;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-}
+html,
+body {
+      height: 100%;
+        padding: 0;
+          margin: 0;
+      }
+      #top {
+            height: 50%;
+              padding: 0;
+                margin: 0;
+                  display: flex;
+              }
+              #bottom {
+                    height: 50%;
+                      padding: 0;
+                        margin: 0;
+                          display: flex;
+                      }
+                      div {
+                            width: 100%;
+                              height: 100%;
+                          }
+                          #div1 {
+                                background: #ddd;
+                            }
+                            #div2 {
+                                  background: #aaa;
+                              }
+                              #div3 {
+                                    background: #777;
+                                }
+                                #div4 {
+                                      background: #444;
+                                  }
+                                  #div5 {
+                                        background: #ddd;
+                                    }
+                                    #div6 {
+                                          background: #aaa;
+                                      }
 
-.demo-main {
-  margin-top: -35vh;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-}
+                                      .center-it {
+                                            position: relative; /* or absolute */
+                                              top: 50%;
+                                                left: 50%;
+                                            }
 
-.demo-header .mdl-layout__header-row {
-  padding-left: 40px;
-}
+                                            .resume {
+                                                  background: url("https://cdn4.iconfinder.com/data/icons/free-colorful-icons/360/google_docs.png")
+                                                      center/cover;
+                                                        background-size: 325px 325px;
+                                                          background-repeat: no-repeat;
+                                                      }
 
-.demo-container {
-  max-width: 1600px;
-  width: calc(100% - 16px);
-  margin: 0 auto;
-}
+                                                      .github {
+                                                            background: url("https://assets-cdn.github.com/images/modules/logos_page/Octocat.png")
+                                                                center/cover;
+                                                                  background-size: 400px 270px;
+                                                                    background-repeat: no-repeat;
+                                                                      color: white;
+                                                                        font-size: 7em;
+                                                                    }
 
-.demo-content {
-  border-radius: 2px;
-  padding: 80px 56px;
-  margin-bottom: 80px;
-}
+                                                                    .codepen {
+                                                                          background: url("https://maxcdn.icons8.com/Android_L/PNG/512/Logos/codepen-512.png")
+                                                                              center/cover;
+                                                                                background-size: 350px 350px;
+                                                                                  background-repeat: no-repeat;
+                                                                              }
 
-.demo-layout.is-small-screen .demo-content {
-  padding: 40px 28px;
-}
+                                                                              .so {
+                                                                                    background: url("http://kiki.to/img/stackoverflow-favicon.svg") center/cover;
+                                                                                      background-size: 300px 300px;
+                                                                                        background-repeat: no-repeat;
+                                                                                    }
 
-.demo-content h3 {
-  margin-top: 48px;
-}
+                                                                                    .linkedin {
+                                                                                          background: url("https://img.talkandroid.com/uploads/2015/11/linkedin-app-logo.png")
+                                                                                              center/cover;
+                                                                                                background-size: 275px 275px;
+                                                                                                  background-repeat: no-repeat;
+                                                                                              }
+
+                                                                                              .playcanvas {
+                                                                                                    background: url("https://s3-eu-west-1.amazonaws.com/static.playcanvas.com/images/logo/PLAY_FLAT_ORANGE3.png")
+                                                                                                        center/cover;
+                                                                                                          background-size: 275px 275px;
+                                                                                                            background-repeat: no-repeat;
+                                                                                                        }
+
+                                                                                                        .resume a {
+                                                                                                              color: #1368c4;
+                                                                                                                font-size: 7.5em;
+                                                                                                            }
+
+                                                                                                            .linkedin a {
+                                                                                                                  color: #175f8c;
+                                                                                                                    font-size: 6em;
+                                                                                                                }
+
+                                                                                                                .github a {
+                                                                                                                      color: white;
+                                                                                                                        font-size: 1.3em;
+                                                                                                                    }
+
+                                                                                                                    .codepen a {
+                                                                                                                          color: white;
+                                                                                                                            font-size: 6em;
+                                                                                                                        }
+
+                                                                                                                        .playcanvas a {
+                                                                                                                              color: orange;
+                                                                                                                                font-size: 3em;
+                                                                                                                            }
+
+                                                                                                                            .so a {
+                                                                                                                                  color: white;
+                                                                                                                                    font-size: 3em;
+                                                                                                                                }
+                                                                                                                                /*  LINK to Devpost logo for navbar*/
+                                                                                                                                /*http://logo-logos.com/wp-content/uploads/2016/10/Devpost_logo_logotype.png*/
