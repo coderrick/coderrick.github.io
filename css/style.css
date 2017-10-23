@@ -88,6 +88,10 @@ body {
                                                                                                             background-repeat: no-repeat;
                                                                                                         }
 
+                                                                                                        a:link{
+                                                                                                            text-decoration: none;
+                                                                                                        }
+
                                                                                                         .resume a {
                                                                                                               color: #1368c4;
                                                                                                                 font-size: 7.5em;
